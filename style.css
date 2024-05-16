@@ -1,0 +1,80 @@
+.flex-container {
+	display: flex;
+	flex-basis:horizontal;
+	gap:20px;
+	justify-content: center;
+}
+body{
+  background-image: radial-gradient(circle, red, black);
+}
+button{
+	font-size:1.6em;
+	font-family:"Georgia", "Times New Roman", serif;
+	border-radius:20%;
+	padding:6px;
+	background-color:white;
+	color:black;
+}
+button:hover{
+	background-color:black;
+	color:red;
+}
+h1{
+	font-size:2em;
+	font-family:"EB Garamond", "Garamond", "Georgia", "Times New Roman", serif;
+}
+h1, h2, h3{
+	text-align:center;
+}
+p{
+	font-size:1.4em;
+	text-indent:2%;
+}
+#CEmain{
+	border-radius: 6%;
+	margin:0px;
+	padding:10px;
+	width:62.5%;
+	background-color:rgb(184, 157, 157, 0.5);
+}
+#bigDiv{
+	display:flex;
+	flex-basis:horizontal;
+	justify-content:center;
+}
+#main{
+	border-radius: 6%;
+	padding:10px;
+	width:60%;
+	line-height:35px;
+	background-color:rgb(184, 157, 157, 0.5);
+}
+#CEmainPic{
+	width:34.5%;
+	float:right;
+	margin:0;
+	border-radius: 5%;
+}
+#about{
+	margin:12px;
+	display:flex;
+	flex-basis:horizontal;
+	justify-content:center;
+	gap:4%;
+}
+#about > div > div > img{
+	width:calc(100%);
+	display:flex;
+	border-radius:10%;
+}
+#about > div{
+	display:flex;
+	justify-items: center;
+	width:20%;
+	border: black solid 6px;
+	border-radius:10%;
+	background-color:rgb(157, 184, 164, 0.8);
+}
+#about > div > div > p{
+	margin:10px;
+}
