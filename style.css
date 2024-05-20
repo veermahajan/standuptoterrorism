@@ -50,12 +50,12 @@ p{
 	line-height:35px;
 	background-color:rgb(184, 157, 157, 0.5);
 }
-#CEmainPic, #HmainPicDiv{
+#CEmainPic, #HmainPic{
 	width:100%;
 	margin:0;
 	border-radius: 5%;
 }
-#CEmainPicDiv, #HmainPicDiv{
+#CEmainPicDiv, .HmainPicDiv{
 	width:34.5%;
 	float:right;
 }
